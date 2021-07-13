@@ -39,13 +39,35 @@ public class Main {
 //              double res = result*2;
 //              System.out.println(res);
 
+//            8-Scanner scan = new Scanner(System.in);
+//              System.out.println("Quanto você ganha por hora?");
+//              float hora = scan.nextFloat();
+//              Scanner Scan = new Scanner(System.in);
+//              System.out.println("Quantas horas você trabalha por mês?");
+//              float sal = scan.nextFloat();
+//              System.out.println(hora * sal);
 
-       // 8-Scanner scan = new Scanner(System.in);
-        //System.out.println("Quanto você ganha por hora trabalhada?");
-        //double sal = scan.nextDouble();
 
-       // Scanner scan = new Scanner(System.in);
-       // System.out.println("Quantas horas você trabalha por mês?");
+//             9-Scanner Scan = new Scanner(System.in);
+//               System.out.println("Qual a temperatura em Fahrenheit");
+//               float temp = Scan.nextFloat();
+//               System.out.println((temp-32)/1.8);
+
+//            10-Scanner Scan = new Scanner(System.in);
+//               System.out.println("Qual a temperatura em graus  Celsius?");
+//               float temp = Scan.nextFloat();
+//               System.out.println((temp*1.8)+32);
+
+
+
+
+
+
+
+
+
+
+
 
 
 
