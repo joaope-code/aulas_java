@@ -6,22 +6,26 @@ public class Exercicio_5 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.println("Informe a primeira nota do aluno");
-        float n1 = scan.nextFloat();
-        System.out.println("Informe a segunda nota do aluno");
-        float n2 = scan.nextFloat();
-        float avg = (n1 + n2) / 2;
-        if (avg >= 7) {
-        }
-        System.out.println("Aprovado");
-            else if (avg == 10) {
+        double nt1 = scan.nextDouble();
+
+        System.out.println("Informe a segunda nota");
+        double nt2 = scan.nextDouble();
+
+        double media = (nt1 + nt2) / 2;
+        System.out.println("A media foi "+ media);
+        if (media == 10) {
             System.out.println("Aprovado com Distinção");
-        } else (avg < 7) {
+        } else if (media >= 7) {
+            System.out.println("Aprovado");
+        } else {
             System.out.println("Reprovado");
         }
     }
 }
 
-}
+
+
+
 
 
 
