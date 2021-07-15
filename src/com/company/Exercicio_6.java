@@ -20,8 +20,12 @@ public class Exercicio_6 {
         else if (num2>num1 & num2>num3){
             System.out.println("O maior numéro é o "+num2);
         }
-        else if (num3>num1 & num3>num1){
+        else if (num3>num1 & num3>num2){
             System.out.println("O maior numéro é o "+num3);
+        }else if (num1==num2){
+            System.out.println("O primeiro valor é igual ao segundo");
+        }else if (num2==num3){
+            System.out.println("O segundo valor é igual ao terceiro");
         }
         }
     }
