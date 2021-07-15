@@ -48,8 +48,8 @@ public class Exercicio_9 {
             System.out.println(num3 + "-" + num2 + "-" + num1);
         } else if (num3 > num2 & num3 > num1 & num1 == num2) {
             System.out.println(num3 + "-" + num2 + "-" + num1);
-            {
-            }
+
+
 
 
         }
