@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Exercicio3da3 {
     public static void main(String[] args) {
+        boolean ff = false;
         Scanner scan = new Scanner(System.in);
         System.out.println("Digite seu nome");
         String nome = scan.next();
@@ -27,19 +28,22 @@ public class Exercicio3da3 {
             sala = scan.nextInt();
         }
 
-        System.out.println("Qual seu sexo F/M");
-        String sx = scan.next();
-        while (! "F") {
-        }
-            System.out.println("Sexo invalido, insira novamente");
-            sx = scan.next();
-        }
 
-//        System.out.println("Estado civil");
-//            String ec = scan.next();
+      do {
+          System.out.println("Qual seu sexo F/M");
+          String sx = scan.next();
+          if (sx.equalsIgnoreCase("f") || sx.equalsIgnoreCase("m")){
 
+          }else {
+              System.out.println("O sexo sexo precisar ser definido como F ou M");
+              sx = scan.next();
+          }
+          }while (ff);
 
 
     }
+}
+
+
 
 
